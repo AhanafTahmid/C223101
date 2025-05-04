@@ -20,7 +20,7 @@ const ob2 = new CustomerOrder(2,"tahmid", 41)
 const ob3 = new CustomerOrder(3,"sakib", 14)
 const ob4 = new CustomerOrder(4,"khan", 34)
 const arr = [ob1, ob2, ob3, ob4];
-//for(let i  = 0; i< arr.length;i++) console.log(arr[i].customerName);
+for(let i  = 0; i< arr.length;i++) console.log(arr[i].customerName);
 
 //caculate and order all the display files
 const calc_display2 = () => {
@@ -55,6 +55,6 @@ const readfromFile = () => {
     });
 }
 
-writeInFile();
-readfromFile();
+// writeInFile();
+// readfromFile();
 // calc_display2();
