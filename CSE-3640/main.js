@@ -55,6 +55,6 @@ const readfromFile = () => {
     });
 }
 
-// writeInFile();
-// readfromFile();
+writeInFile();
+readfromFile();
 // calc_display2();
