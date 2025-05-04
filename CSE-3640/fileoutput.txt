@@ -1,1 +1,1 @@
- `${arr}` 
+from main.js
